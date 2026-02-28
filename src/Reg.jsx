@@ -16,7 +16,7 @@ function Reg() {
    try
    {
     // const res= await axios.post("http://localhost:8080/reg"
-     const res= await axios.post("http://localhost:8080/register",data)
+     const res= await axios.post("https://backend1-c2uk.onrender.com",data)
     alert(res.data)
    }
    catch(xyz)
