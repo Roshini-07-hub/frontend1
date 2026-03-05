@@ -16,7 +16,7 @@ function Reg() {
    try
    {
     // const res= await axios.post("http://localhost:8080/reg"
-     const res= await axios.post("https://backend1-1-mq4n.onrender.com/reg",data)
+     const res= await axios.post("https://backend1-1-mq4n.onrender.com/register",data)
     alert(res.data)
    }
    catch(xyz)
